@@ -45,7 +45,7 @@ class Landing extends React.Component{
                     <CategoryIndex />
                   </div>
                   <div className='recents-container'>
-                    <Carousel campaigns={data.campaigns} type='Recent' />
+                    {/* `<Carousel campaigns={data.campaigns} type='Recent' />` */}
                   </div>
                   <div className='banner-container'>
                     <div className='image-frame'>
