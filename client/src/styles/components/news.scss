@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 1188px;
     height: 600px;
-    padding: 12px;
+    padding-left: 3px;
+    margin-left: 51px  ;
     .news-header{
         width: 100%;
         font-family: 'Times New Roman', Times, serif;
@@ -20,7 +21,7 @@
     }
     .news-body{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         .article-link{
             text-decoration: none;
         }

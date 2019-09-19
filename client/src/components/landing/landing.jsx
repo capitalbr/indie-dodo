@@ -21,27 +21,42 @@ class Landing extends React.Component{
             
             return(
               <div className='landing-main'>
+                {/* <div className="signup-popup">
+                  <div className="signup-popup-contents">
+                    <h2>Help Save Animals On IndieDodo!</h2>
+                    <p>IndieDodo is where early people who love animals 
+                      can use your creativity and inspiration to create touching 
+                      stories to raise awareness for endangered species</p>
+                    <div className="buttons-container">
+                      <button>
+
+                      </button>
+                    </div>
+                  </div>
+                </div> */}
                 <div className='featured-container'>
                   <FeaturedCarousel campaigns={data.campaigns} />
                 </div>
-                <div className='trending-container'>
-                  <Carousel campaigns={data.campaigns} type='Trending' />
-                </div>
-                <div className='categories-container'>
-                  <CategoryIndex />
-                </div>
-                <div className='recents-container'>
-                  <Carousel campaigns={data.campaigns} type='Recent' />
-                </div>
-                <div className='banner-container'>
-                  <div className='image-frame'>
-                    <a href="http://lovewildlife.org">
-                      <img src="https://i.imgur.com/eJkLE8l.png" alt="#savetheloris"/>
-                    </a>
+                <div className="landing-body">
+                  <div className='trending-container'>
+                    <Carousel campaigns={data.campaigns} type='Trending' />
                   </div>
-                </div>
-                <div className='news-container'>
-                  <News />
+                  <div className='categories-container'>
+                    <CategoryIndex />
+                  </div>
+                  <div className='recents-container'>
+                    <Carousel campaigns={data.campaigns} type='Recent' />
+                  </div>
+                  <div className='banner-container'>
+                    <div className='image-frame'>
+                      <a href="http://lovewildlife.org">
+                        <img src="https://i.imgur.com/eJkLE8l.png" alt="#savetheloris"/>
+                      </a>
+                    </div>
+                  </div>
+                  <div className='news-container'>
+                    <News />
+                  </div>
                 </div>
               </div>
             );

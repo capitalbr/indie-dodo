@@ -74,10 +74,14 @@ export default class CampaignItem extends React.Component{
               <FaHeart />
             </div>
             <div className="campaign-body">
-              <h1 className="title">{camp.title}</h1>
-              <p>{camp.tagline}</p>
-              <h3>{camp.category}</h3>
-              {contributions}
+              <div>
+                <h1 className="title">{camp.title}</h1>
+                <p>{camp.tagline}</p>
+              </div>
+              <div className="contributions-container">
+                <h3>{camp.category}</h3>
+                {contributions}
+              </div>
             </div>
           </div>
         </Link>

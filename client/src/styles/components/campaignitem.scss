@@ -2,7 +2,7 @@
     background-color: white;
     border: 1px solid $bordergray;
     width: 275px;
-    height: 572px;
+    height: 557px;
     min-width: 275px;
     margin-right: 40px;
     padding: 0;
@@ -23,6 +23,7 @@
     .campaign-summary{
         text-decoration: none;
         padding: 12px;
+        height: 244px;
         .campaign-header{
             display: flex;
             justify-content: space-between;
@@ -32,6 +33,10 @@
             border-bottom: 1px solid $bordergray;
         }
         .campaign-body{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
             *{
                 margin-bottom: 6px;
             }
@@ -41,16 +46,20 @@
                 color: $indiegray;
             }
             h3{
-                font-size: 11px;
+                font-size: 13px;
                 font-weight: 700px;
                 text-transform: uppercase;
                 color: $indiegray;
+                margin-bottom: 20px;
             }
             .time-remaining{
                 display: flex;
                 align-items: center;
                 align-content: center;
                 color: $indiegray;
+            }
+            .contributions-container{
+                align-self: flex-end;
             }
         }
     }

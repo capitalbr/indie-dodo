@@ -1,9 +1,27 @@
+.landing-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-popup{
+    background: white;
+    width: 597px;
+    height: 330px;
+    position: absolute;
+    top: 140px;
+    right: 0;
+    z-index: 1;
+}
+
 .featured-container{
     width: 100%;
     height: 468px;
 }
 
 .trending-container{
+    display: flex;
+    justify-content: center;
     position: relative;
     margin-left: 80px;
     margin-right: 80px;
@@ -16,6 +34,8 @@
     margin-right: 80px;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -23,5 +43,5 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 48px;
+    margin-top: 62px;
 }

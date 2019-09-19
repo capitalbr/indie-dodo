@@ -1,6 +1,7 @@
 .carousel{
-    width: 100%;
+    width: 1215px;
     padding-top: 48px;
+    margin-left: 13px;
     .carousel-header{
         width: 97%;
         height: 55px;
@@ -11,6 +12,8 @@
         font-size: 24px;
         .carousel-control{
             display: flex;
+            width: 100px;
+            justify-content: space-between;
             flex-direction: row;
             .carousel-button{
                 display: flex;

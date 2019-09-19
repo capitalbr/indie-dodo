@@ -1,4 +1,6 @@
 .featured-campaign{
+    display: flex;
+    justify-content: center;
     height: 468px;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.95));
@@ -33,13 +35,13 @@
     bottom: 80px;
     margin-top: 512px;
     z-index: 1;
-    margin-right: 80px;
-    margin-left: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
     color: white;
     padding: 12px;
     background: transparent;
+    width: 1215px;
+    .div{
+        margin-left: 50px;
+    }
     span{
         text-decoration: underline;
         text-transform: uppercase;
