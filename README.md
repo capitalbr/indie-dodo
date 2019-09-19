@@ -1,5 +1,5 @@
 # Indiedodo
-Live Project: [Indiedodo](https://indie-dodo.herokuapp.com/#/landing)  
+Live Project: [Indiedodo](https://indiedodo-project.herokuapp.com/#/)  
 
 An Indiegogo clone that uses a rewards-based system by giving ‘perks’ to customers who are willing to help fund a project.  
 
