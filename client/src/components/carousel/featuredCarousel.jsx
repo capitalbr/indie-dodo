@@ -40,7 +40,9 @@ class Carousel extends React.Component{
                   <div className='carousel-control'>
                     <button className="carousel-btn" onClick={() => this.slidePrev()}><FaChevronLeft/></button>
                     <button className="carousel-btn" onClick={() => this.slideNext()}><FaChevronRight/></button>
-                    <span>{ (i + 1) + ' / ' + featured.length}</span>
+                    <div className="item-number">
+                      <span>{ (i + 1) + ' / ' + featured.length}</span>
+                    </div>
                   </div>
                 </div>
               </div>

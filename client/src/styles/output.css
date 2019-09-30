@@ -966,18 +966,30 @@ h2 {
   .featured-controls .div {
     margin-left: 50px; }
   .featured-controls span {
-    text-decoration: underline;
     text-transform: uppercase;
     font-size: 12px;
     margin-bottom: 12px; }
+  .featured-controls .featured-label {
+    letter-spacing: 2px;
+    font-weight: 300;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px; }
   .featured-controls .featured-title {
-    font-size: 16px;
-    font-weight: 900; }
+    letter-spacing: 1.5px;
+    margin: 15px 0px 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    width: fit-content; }
+  .featured-controls .featured-link {
+    width: fit-content;
+    font-size: .8em; }
   .featured-controls .featured-link:hover {
-    text-decoration: underline; }
+    color: #64c7f5; }
   .featured-controls .featured-tagline {
-    font-size: 14px;
-    font-weight: 400; }
+    margin-bottom: 9px;
+    font-size: 17px;
+    font-weight: 300;
+    width: fit-content; }
   .featured-controls a {
     font-size: 12px;
     text-decoration: none;
@@ -986,12 +998,12 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 120px;
-    padding: 24px; }
+    width: 140px;
+    padding: 24px 24px 24px 0px; }
     .featured-controls .carousel-control .carousel-btn {
       display: flex;
-      height: 30px;
-      width: 30px;
+      height: 40px;
+      width: 40px;
       border: 1px solid white;
       background: transparent;
       color: white;
@@ -1003,10 +1015,17 @@ h2 {
       .featured-controls .carousel-control .carousel-btn:hover {
         color: white;
         background: rgba(0, 0, 0, 0.55); }
-    .featured-controls .carousel-control span {
-      font-size: 12px;
-      text-decoration: none;
-      padding: 6px 12px; }
+    .featured-controls .carousel-control .item-number {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 12px; }
+      .featured-controls .carousel-control .item-number span {
+        font-size: .9em;
+        text-decoration: none;
+        padding: 0;
+        font-weight: 300;
+        letter-spacing: .04em; }
 
 .footer-container {
   border-top: 3px solid #DDDDDD; }
