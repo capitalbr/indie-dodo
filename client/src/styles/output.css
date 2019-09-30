@@ -336,7 +336,9 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative;
+  z-index: 2; }
 
 .nav-container * {
   display: flex;
@@ -2331,7 +2333,8 @@ h2 {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow-y: scroll; }
 
 .modal-component {
   margin-top: 100px;

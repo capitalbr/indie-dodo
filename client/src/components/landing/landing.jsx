@@ -13,6 +13,7 @@ class Landing extends React.Component{
     this.state = ""
   }
   render(){
+    document.body.style.overflowY = "initial";
     return (
         <Query query={FETCH_CAMPAIGNS}>
           {({ loading, error, data }) => {

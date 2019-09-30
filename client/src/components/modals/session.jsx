@@ -20,6 +20,8 @@ export default class SessionModal extends React.Component {
         modalType: false
       }
     });
+    
+    document.body.style.overflowY = "initial";
   }
 
   handleChange(e) {

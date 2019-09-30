@@ -11,6 +11,7 @@ const { IS_LOGGED_IN } = Queries;
 class Nav extends React.Component{
   session(e, type, client){
     e.preventDefault();
+    document.body.style.overflowY = "hidden";
     client.writeData({
       data: {
         modalType: type,
