@@ -110,8 +110,8 @@ class CampaignCreate extends Component {
       this.verifyUser(token, client);
       return (
         <div className='create-campaign-container'>
-          <div className="vert-image-container">
-            <img className="vert-image" src="https://indiedodo-dev.s3-us-west-1.amazonaws.com/jungle_vert_slice.png" alt="sidebar-jungle" />
+          <div className="create-campaign-sidebar">
+            
           </div>
           <div>
             <section className='create-campaign-header'>
