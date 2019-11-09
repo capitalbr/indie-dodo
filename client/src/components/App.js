@@ -12,10 +12,6 @@ import Checkout from "./checkout/checkout"
 import SessionModal from "./modals/session";
 
 const App = () => {
-//   return (
-//     <h1>We love animals!</h1>
-//   )
-// }
   return (
     <div>
       <Route path="/" component={SessionModal}/>
